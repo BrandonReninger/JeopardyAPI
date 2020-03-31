@@ -1,9 +1,9 @@
 export default class Question {
     constructor(data) {
-        this.title = data.title
+        this.question = data.question
     }
 
     get Template() {
-        return `<p>${this.title}</p>`
+        return `<p>${this.question}</p>`
     }
 }
