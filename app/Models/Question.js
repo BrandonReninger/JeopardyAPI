@@ -4,6 +4,6 @@ export default class Question {
     }
 
     get Template() {
-        return this.title
+        return `<p>${this.title}</p>`
     }
 }
